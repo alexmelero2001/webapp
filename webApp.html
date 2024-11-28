@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Habits</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Healthy Habits</h1>
+    </header>
+    <main>
+        <section class="habits">
+            <img src="https://via.placeholder.com/150" alt="Healthy habit symbol" class="habit-image">
+            <p>Mantén un estilo de vida saludable: ejercítate y come bien.</p>
+        </section>
+        <section class="audio-section">
+            <div class="audio-recorder">
+                <button id="recordButton">🎤 Grabar</button>
+                <button id="stopButton" disabled>⏹️ Detener</button>
+                <button id="playButton" disabled>▶️ Reproducir</button>
+                <button id="sendButton" disabled>📤 Enviar</button>
+                <audio id="audioPlayback"></audio>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

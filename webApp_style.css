@@ -1,0 +1,67 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.habits {
+    margin-bottom: 20px;
+}
+
+.habit-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.audio-section {
+    margin-top: 20px;
+}
+
+.audio-recorder button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#recordButton {
+    background-color: #4caf50;
+    color: white;
+}
+
+#stopButton {
+    background-color: #f44336;
+    color: white;
+}
+
+#playButton {
+    background-color: #2196f3;
+    color: white;
+}
+
+#sendButton {
+    background-color: #ffc107;
+    color: black;
+}
+
+.audio-recorder button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
